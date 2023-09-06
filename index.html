@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+        integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        h5 {
+            font-weight: bolder;
+
+        }
+
+        th {
+            font-weight: lighter;
+            justify-content: center;
+        }
+
+        td {
+            justify-content: center;
+        }
+
+        .required {
+            color: red;
+        }
+
+        .card {
+            margin: 0 auto;
+        }
+
+        table {
+            border: 3px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card" style="width: 60rem;">
+        <div class="card-body">
+
+            <form>
+                <h5>Name <span class="required">*</span></h5>
+
+                <div class="row">
+                    <div class="form-group col-md-3">
+                        <input type="fname" class="form-control" id="inputfname">
+                        <small>First</small>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <input type="lname" class="form-control" id="inputlname">
+                        <small>Last</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h5>Email <span class="required">*</span></h5>
+                    <div class="col-md-6">
+                        <input class="form-control" id="first" type="text">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <h5>Your Experience <span class="required">*</span></h5>
+                    <div class="col-xs-8" style="color: red;">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="form-row">
+                    <p>Overall, how would you rate your experiance whith us?</p>
+                </div>
+                <div class="form-row">
+                    <h5>How satisfied are you with <span class="required">*</span></h5>
+                </div>
+                <div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th>Very Unsatisfied</th>
+                                <th>Unsatisfied</th>
+                                <th>Neutral</th>
+                                <th>Satisfied</th>
+                                <th>Very Satisfied</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">Purchased</td>
+                                <td><input type="radio" name="purchase" id="review1" value="choice"></td>
+                                <td><input type="radio" name="purchase" id="review2" value="choice"></td>
+                                <td><input type="radio" name="purchase" id="review3" value="choice"></td>
+                                <td><input type="radio" name="purchase" id="review4" value="choice"></td>
+                                <td><input type="radio" name="purchase" id="review5" value="choice"></td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Service</td>
+                                <td><input type="radio" name="service" id="review1" value="choice"></td>
+                                <td><input type="radio" name="service" id="review2" value="choice"></td>
+                                <td><input type="radio" name="service" id="review3" value="choice"></td>
+                                <td><input type="radio" name="service" id="review4" value="choice"></td>
+                                <td><input type="radio" name="service" id="review5" value="choice"></td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Company Overall</td>
+                                <td><input type="radio" name="overall" id="review1" value="choice"></td>
+                                <td><input type="radio" name="overall" id="review2" value="choice"></td>
+                                <td><input type="radio" name="overall" id="review3" value="choice"></td>
+                                <td><input type="radio" name="overall" id="review4" value="choice"></td>
+                                <td><input type="radio" name="overall" id="review5" value="choice"></td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+                <br>
+
+                <div class="row">
+                    <h5>How satisfied are you with <span class="required">*</span></h5>
+                </div>
+                <div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th>Very Unsatisfied</th>
+                                <th>Unsatisfied</th>
+                                <th>Neutral</th>
+                                <th>Satisfied</th>
+                                <th>Very Satisfied</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">Buy from us again</td>
+                                <td><input type="radio" name="buy" id="review1" value="choice"></td>
+                                <td><input type="radio" name="buy" id="review2" value="choice"></td>
+                                <td><input type="radio" name="buy" id="review3" value="choice"></td>
+                                <td><input type="radio" name="buy" id="review4" value="choice"></td>
+                                <td><input type="radio" name="buy" id="review5" value="choice"></td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Recommend our Product to others</td>
+                                <td><input type="radio" name="Product" id="review1" value="choice"></td>
+                                <td><input type="radio" name="Product" id="review2" value="choice"></td>
+                                <td><input type="radio" name="Product" id="review3" value="choice"></td>
+                                <td><input type="radio" name="Product" id="review4" value="choice"></td>
+                                <td><input type="radio" name="Product" id="review5" value="choice"></td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Recommend our Company to others</td>
+                                <td><input type="radio" name="Company" id="review1" value="choice"></td>
+                                <td><input type="radio" name="Company" id="review2" value="choice"></td>
+                                <td><input type="radio" name="Company" id="review3" value="choice"></td>
+                                <td><input type="radio" name="Company" id="review4" value="choice"></td>
+                                <td><input type="radio" name="Company" id="review5" value="choice"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="container-fluid">
+                    <h5>Additional comments or suggestions</h5>
+                    <textarea class="form-control" name="additional" id="add" cols="30" rows="4"></textarea>
+                    <br>
+                    <button type="button" class="btn btn-primary">Sign in</button>
+                </div>
+
+
+            </form>
+
+        </div>
+    </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
